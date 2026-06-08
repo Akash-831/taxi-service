@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.whatsapp-now-icon a{
+    position: fixed;
+    text-decoration: none;
+    bottom: 30px;
+    left: 20px;
+    background-color: #25d366;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 30px;
+    gap: 5px;
+    box-shadow:
+    0 0 3px rgba(37, 211, 102, 0.25),
+    0 0 10px rgba(37, 211, 102, 0.35),
+    0 0 20px rgba(37, 211, 102, 0.45);
+   
+}
+.whatsapp-now-icon p{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.whatsapp-now-icon i{
+    font-size: 30px;
+}
+.main-c {
+    background-color: #f7f1e8;
+    padding: 50px 15px 50px 15px;
+}
+
+.main-container {
+    display: flex;
+    gap: 30px;
+}
+.top-banner-section {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("images/patna.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.top-banner-section span {
+    width: 99.7%;
+    left: 0;
+    right: 0;
+    color: #eed376;
+    border: 2px solid #ddb944;
+    position: absolute;
+    top: 100%;
+    /* overflow: hidden; */
+}
+
+.top-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-link {
+    border: 1px solid #5a3f11;
+    display: flex;
+    color: white;
+    background-color: #1d160d;
+    gap: 10px;
+    align-items: center;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+
+.banner-link a {
+    text-decoration: none;
+    color: #eed376;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.banner-link i {
+    font-size: 8px;
+    color: #976918;
+}
+
+.banner-link p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.452);
+    font-weight: 700;
+}
+
+.top-banner-heading {
+    font-size: 65px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'TEKO', sans-serif;
+    font-weight: bold;
+}
+
+.left-container {
+    width: 65%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.patna-top-border {
+    border: 2px solid #e69f1f;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.left-container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-image {
+    margin-bottom: 20px;
+}
+
+.left-image img {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.left-image img:hover {
+    transform: scale(1.02);
+}
+
+
+.left-container-top-heading {
+    font-size: 35px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    word-spacing: 3px;
+    color: #4a2c0a;
+    border-bottom: 2px solid #faecd2;
+}
+
+.about-patna {
+    font-size: 15.5px;
+    color: #5a3e20;
+    line-height: 27px;
+}
+
+.cab-banifit-heading{
+    font-size: 25px;
+    font-family: 'TEKO', sans-serif;
+    font-weight: 600;
+    color: #4a2c0a;
+    border-left: 4px solid #d09c39;
+    padding-left: 10px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+.about-patna-heighlights {
+    color: #4a2c0a;
+    font-weight: 700;
+}
+
+.about-patna-end-para {
+    padding-top: 20px;
+}
+
+.places-desc {
+    border: 1px solid #faebd1;
+    border-radius: 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    padding: 12px 10px 12px 20px;
+    background-color: #fdf8f0;
+    transition: 0.2s ease-in-out;
+    margin-bottom: -10px;
+
+}
+
+.places-desc:hover {
+    border: 1px solid #fcd696;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.places-desc span {
+    height: 7px;
+    width: 7px;
+    background-color: #d19e3b;
+    border-radius: 50%;
+    flex-shrink: 0;
+
+}
+
+.place-name {
+    font-size: 15px;
+}
+
+.wide-range {
+    line-height: 27px;
+}
+
+.how-to-book {
+    font-weight: 700;
+    font-size: 17px;
+    color: #4a2c0a;
+}
+
+.booking-policy {
+    border: 1px solid red;
+    padding: 10px;
+    color: black;
+    text-align: center;
+
+}
+
+.cab-bani {
+    margin-top: 25px;
+}
+
+.places-desc label {
+    padding: 5px 10px;
+    background-color: #d09c39;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.how-to-book-1 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.about-patna label {
+    font-weight: bold;
+    color: #4a2c0a;
+}
+
+.right-container {
+    width: 32%;
+}
+
+.form-main-container {
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0px;
+}
+
+
+.user-icon input {
+    width: 100%;
+}
+
+
+.taxi-service-container .taxi-service-heading {
+    padding: 15px 15px;
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #1d160d;
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.taxi-service-container {
+    border-radius: 15px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.taxi-service-container ul {
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-top: 10px;
+}
+
+li::before {
+    content: "•";
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 17px;
+    color: #d9aa48;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover::after {
+    content: "❯";
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #d9aa48;
+    transition: 0.3s ease-in-out;
+}
+
+.taxi-service-container ul li {
+    list-style: none;
+    position: relative;
+}
+
+.taxi-service-container ul li:hover::before {
+    left: 30px;
+    font-size: 23px;
+}
+
+.taxi-service-container ul a {
+    display: inline-block;
+    padding: 15px 0px;
+    width: 100%;
+    color: #5a3e20;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.taxi-service-container ul li:hover a {
+    padding-left: 50px;
+    background-color: #fef9f2;
+    color: #d4880a;
+}
+
+
+
+.taxi-service-container ul::-webkit-scrollbar {
+    width: 5px;
+    height: 30px;
+}
+
+.taxi-service-container ul::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #d09c39
+}
+
+@media(max-width:578px) {
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .left-container,
+    .right-container {
+        width: 95%;
+    }
+
+    .left-container {
+        padding: 20px 15px 15px 15px;
+    }
+
+    .form-main-container {
+        width: 100%;
+        display: block;
+    }
+
+    .banner-link a {
+        font-size: 12px;
+    }
+
+    .banner-link p {
+        font-size: 12px;
+    }
+
+    .top-banner-content .top-banner-heading {
+        font-size: 30px;
+        margin-top: 5px;
+    }
+
+    .top-banner-section {
+        height: 180px;
+    }
+
+    .left-image img {
+        height: 250px;
+    }
+
+    .left-container-content .left-container-top-heading {
+        font-size: 25px;
+    }
+
+    .left-container-content .cab-banifit-heading{
+        font-size: 20px;
+    }
+    .places-desc .place-name{
+        font-size: 14px;
+    }
+}

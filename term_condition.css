@@ -1,0 +1,122 @@
+.top-banner-section {
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url("images/terms.webp");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-top: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.top-banner-section span {
+    width: 99.7%;
+    left: 0;
+    right: 0;
+    color: #eed376;
+    border: 2px solid #ddb944;
+    position: absolute;
+    top: 100%;
+    /* overflow: hidden; */
+}
+
+.top-banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-link {
+    border: 1px solid #5a3f11;
+    display: flex;
+    color: white;
+    background-color: #1d160d;
+    gap: 10px;
+    align-items: center;
+    padding: 3px 20px;
+    border-radius: 20px;
+}
+
+.banner-link a {
+    text-decoration: none;
+    color: #eed376;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.banner-link i {
+    font-size: 8px;
+    color: #976918;
+}
+
+.banner-link p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.452);
+    font-weight: 700;
+}
+
+.top-banner-heading {
+    font-size: 65px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: 'TEKO', sans-serif;
+    font-weight: bold;
+}
+.privacy-policy-container{
+    padding: 25px 120px 50px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(250, 242, 232);
+}
+.privacy-policy-container .policy-heading{
+font-size: 1.75rem;
+font-weight: 500;
+color: #3d2b14;
+}
+.privacy-policy-container .about-policy{
+color: #3d2b14;
+line-height: 25px;
+}
+
+.policy-point p{
+    line-height: 25px;
+    color: #3d2b14;
+}
+
+
+
+@media(max-width:578px){
+.top-banner-content .top-banner-heading{
+    font-size: 1.9rem;
+    margin-top: 10px;
+
+}
+.banner-link a{
+    font-size: 12px;
+
+}
+.banner-link p{
+font-size: 12px;
+}
+.background-banner-section{
+    background-image: cover;
+
+}
+.privacy-policy-container{
+    padding: 10px;
+}
+.privacy-policy-container .policy-heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+.top-banner-section{
+    height: 180px;
+}
+}
+
+

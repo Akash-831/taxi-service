@@ -1,0 +1,388 @@
+.taxi_service_banner_section {
+    margin-top: 105px;
+    background-image: url("images/gopalganj.webp");
+    height: 330px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.whatsapp-now-icon a{
+    position: fixed;
+    text-decoration: none;
+    bottom: 30px;
+    left: 20px;
+    background-color: #25d366;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    height: 41px;
+    width: 140px;
+transition: 0.3s ease-in-out;
+    padding: 0px 10px;
+    border-radius: 30px;
+    gap: 5px;
+    box-shadow:
+    0 0 3px rgba(37, 211, 102, 0.25),
+    0 0 10px rgba(37, 211, 102, 0.35),
+    0 0 20px rgba(37, 211, 102, 0.45);
+}
+.whatsapp-now-icon p{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.whatsapp-now-icon i{
+    font-size: 25px;
+}
+.whatsapp-now-icon:hover a{
+    transform: scale(1.07);
+}
+.call-now-icon a{
+    position: fixed;
+    text-decoration: none;
+    bottom: 300px;
+    height: 41px;
+    transition: 0.3s ease-in-out;
+
+    left: 20px;
+    width:140px;
+background: linear-gradient(
+    135deg,
+    #f1c960 0%,
+    #e7b443 35%,
+    #d99924 70%,
+    #c47e10 100%
+);    z-index: 1000;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 30px;
+    gap: 10px;
+box-shadow:
+    0 0 3px rgba(181, 112, 10, 0.25),
+    0 0 10px rgba(181, 112, 10, 0.35),
+    0 0 20px rgba(181, 112, 10, 0.45);
+    visibility: hidden;
+}
+.call-now-icon:hover a{
+    transform: scale(1.07);
+}
+.call-now-icon p{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+.call-now-icon img{
+    height: 25px;
+}
+.call-now-icon i{
+    height: 100px;
+}
+/* .call-now-icon{
+    position: fixed;
+    height: 200px;
+    z-index: 100;
+
+} */
+.taxi_service_banner_section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    height: 330px;
+    background: linear-gradient(to bottom, rgba(26, 14, 3, 0.55) 0%, rgba(74, 44, 10, 0.7) 100%);
+}
+
+.taxi-banner-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.taxi-banner-content h3 {
+    font-size: 70px;
+    color: white;
+    font-family: 'TEKO', sans-serif;
+}
+
+.taxi-banner-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.taxi-banner-link p {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.taxi-banner-link a {
+    text-decoration: none;
+    color: #e8cd73;
+    font-size: 13px;
+    font-weight: 600;
+}
+.taxi-banner-link label{
+    color: #b5710ab6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf8f0;
+}
+
+.container-img {
+    border-radius: 20px;
+    width: 65%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container-img img {
+        height: 230px;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.container-img:hover img {
+    transform: scale(1.03);
+}
+
+.our-service-benifits {
+    padding: 0px 18%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.our-service-benifits .para {
+    color: #4a2c0a;
+    line-height: 30px;
+}
+
+.about-headline {
+    font-size: 42px;
+    color: #4a2c0a;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f8e2bc;
+}
+
+.service-benifit-bold-text {
+    color: #4a2c0a;
+    font-weight: 700;
+}
+
+.our-service-benifits .para {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.service-benifit-cab {
+    font-size: 14px;
+    color: #4a2c0a;
+    font-weight: 800;
+}
+
+.service-benifit-para {
+    font-size: 14px;
+    line-height: 25px;
+    color: #4a2c0a;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.our-service-heading {
+    font-size: 25px;
+    font-family: 'TEKO', sans-serif;
+    color: #4a2c0a;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.our-service-heading::before {
+    content: '';
+    width: 4px;
+    height: 20px;
+    display: inline-block;
+    background: linear-gradient(135deg, #f5d97a 0%, #e8a020 40%, #b5700a 100%);
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.our-service-benifits .small-para {
+    font-size: 13px;
+}
+
+table{
+    border-spacing: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+table td{
+        border: 1px solid #f8e2bc5d;
+        font-size: 14px;
+}
+.vehicle-type{
+border-top-left-radius: 10px;
+}
+.taxi-fare{
+    border-top-right-radius: 10px;
+}
+th,td{
+    text-align: left;
+}
+.table-row th{
+    background-color: #331e06;
+    color: #e8cd73;
+    font-size: 17px;
+    padding: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'TEKO',sans-serif;
+}
+tr:hover td{
+    background-color: #fcf3e6
+}
+.table-row th{
+    font-weight: 500;
+}
+tr td:first-child{
+    font-weight: 700;
+    color: #4a2c0a;
+}
+
+table td{
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+.km-price{
+    color: #b5700a;
+    font-weight: bold;
+    font-family: 'TEKO',sans-serif;
+    font-size: 17px;
+}
+.choose-benifit{
+box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;    padding: 13px 15px;
+    border-radius: 8px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border: 1px solid #f8e2bc;
+    gap: 6px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+.choose-benifit:hover{
+    border: 1px solid #e89f206e;
+}
+
+.choose-benifit::before{
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #e8a020;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.choose-benifit p{
+    font-size: 14px;
+}
+.choose-benifit #wide-range{
+    color: #331e06;
+    font-weight: 900;
+}
+.faq-container{
+    padding: 30px 20px;
+    background-color: white;
+    margin-top: 30px;
+    position:relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.faq-container-border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: #e8cd73;
+}
+.faq-heading{
+    border-bottom: 2px solid #faecd2;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'TEKO',sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#331e06
+}
+.faq-question{
+    font-weight: 700;
+    border-left: 3px solid #e8a020;
+    padding: 15px;
+    background-color: #fdf8f0;
+    border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    color: #331e06;
+    margin-top: 30px;
+}
+.faq-answer{
+    color: #331e06;
+    font-size: 14px;
+    padding-top: 15px;
+}
+.faq-answer .service-link{
+    color: #d5890c;
+    font-weight: 800;
+}
+
+@media(max-width:572px){
+    .taxi-banner-content h3{
+font-size: 35px;
+line-height: 40px;
+    }
+    .taxi_service_banner_section{
+        height: 220px;
+    }
+    .container-img{
+        margin-top: 30px;
+    }
+    .our-service-benifits{
+        padding: 15px 2%;
+    }
+    .container-img{
+        width: 96%;
+    }
+      .our-service-benifits .about-headline{
+        font-size: 24px;
+        letter-spacing: 0.5px;
+      }
+  .our-service-heading{
+    font-size: 20px;
+  }
+  .call-now-icon a{
+    visibility: visible;
+    bottom: 80px;
+    left: 10px;
+  }
+  .whatsapp-now-icon a{
+    bottom: 20px;
+    left: 10px;
+  }
+}
