@@ -71,7 +71,7 @@ C:\wamp64\www\
 5. Run the project using:
 
 ```text
-http://localhost/taxibookingsystem
+https://taxi-service.infinityfreeapp.com/?i=1
 ```
 
 ## 📸 Screenshots
